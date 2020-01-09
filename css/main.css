@@ -11,6 +11,34 @@ p, h1 {
   color: #fff;
 }
 
-a {
+.btn {
   color: #fff;
+  border: 3px solid #97a49b;
+}
+
+.btn:hover {
+  color: #495562;
+  background-color: #efefef;
+  border: 3px solid #efefef;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .btn {
+    text-align: right;
+  }
+
+  .wrapper {
+    z-index: 2;
+    top: 300px;
+  }
+
+  html {
+    background-color: #fff;
+  }
+
+  .img-flex {
+    background-image: linear-gradient(rgba(73, 85, 98, 0.5));
+  }
+
 }
